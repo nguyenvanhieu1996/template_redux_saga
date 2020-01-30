@@ -1,4 +1,4 @@
-import { LOADING_PAGE,LOADING_ACTION } from "../constant.js";
+import { LOADING_PAGE, LOADING_ACTION } from "../Loading/constant";
 
 const loadingReducer = (state = false, action) => {
     console.log('action', action);

@@ -1,4 +1,4 @@
-import { USERS } from "../constant";
+import { USERS } from "../Users1/constant";
 import INITIAL_STATE from './State.js'
 
 const usersReducer = (state = INITIAL_STATE, action) => {

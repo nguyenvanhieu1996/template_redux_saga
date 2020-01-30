@@ -1,4 +1,4 @@
-import { USERS } from "../constant";
+import { USERS } from "../User/constant";
 
 const loadUsers = (page) => ({
     type: USERS.LOAD,

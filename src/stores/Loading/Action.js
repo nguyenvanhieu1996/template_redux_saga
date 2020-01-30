@@ -1,4 +1,4 @@
-import { LOADING_ACTION, LOADING_PAGE } from "../constant";
+import { LOADING_ACTION, LOADING_PAGE } from "../Loading/constant";
 
 const showLoadingPage = () => ({
     type: LOADING_PAGE.SHOW,

@@ -1,4 +1,4 @@
-import { HANDLE } from "../constant";
+import { HANDLE } from "../Error/constant";
 
 const errorReducer = (state = false, action) => {
     switch (action.type) {

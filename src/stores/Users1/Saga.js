@@ -1,5 +1,5 @@
 import { takeEvery, call, put } from 'redux-saga/effects'
-import { USERS } from "../constant";
+import { USERS } from "../Users1/constant";
 import { fetchImages } from "../../api";
 import { setUsers, setError } from "../User/Action";
 import { showLoadingPage, hideLoadingPage } from '../Loading/Action.js'
@@ -23,10 +23,6 @@ function* handleUsersLoad({ page }) {
 export default function* watcher() {
     // non-blocking
     yield takeEvery(USERS.LOAD, handleUsersLoad)
-
-
-
-
 
     // blocking
     // yield take(IMAGES.LOAD)
