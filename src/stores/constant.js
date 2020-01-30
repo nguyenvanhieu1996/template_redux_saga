@@ -1,0 +1,18 @@
+const USERS = {
+    LOAD: 'USERS_LOAD',
+    LOAD_SUCCESS: 'USERS_LOAD_SUCCESS',
+    LOAD_FAIL: 'USERS_LOAD_FAIL'
+}
+const LOADING_PAGE = {
+    SHOW: 'SHOW',
+    HIDE: 'HIDE',
+}
+const LOADING_ACTION = {
+    SHOW: 'SHOW',
+    HIDE: 'HIDE',
+}
+const HANDLE = {
+    FAIL: 'FAIL',
+    SUCCESS: 'SUCCESS',
+}
+export { USERS, LOADING_PAGE, LOADING_ACTION, HANDLE }

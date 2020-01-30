@@ -1,26 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import { createStore } from 'redux'
+import TestRedux from '../src/components/test-redux.js'
+import configureStore from "./stores";
+import { Provider } from 'react-redux'
+import 'antd/dist/antd.css';
+const store = configureStore()
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    // const test = () => {
+    //     store.dispatch({ type: 'INCREMENT' })
+    // }
+    return (
+        <div className="App">
+            <Provider store={store}>
+                <TestRedux/>
+                {/*<button onClick={() => test()}>Click</button>*/}
+            </Provider>
+        </div>
+    );
 }
 
 export default App;
