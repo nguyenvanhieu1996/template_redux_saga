@@ -15,12 +15,19 @@ function App() {
        console.log('abcd')
        console.log('eee 43434343')
        console.log('11111')
+       let a = 1
+       let b = 2
+       let c = 1
+       let d = 2
+       
    }
     return (
         <div className="App">
             <Provider store={store}>
                 <TestRedux/>
                <h3>dsadsajhdjhj</h3>
+                <div>abcdef</div>
+                <div>abcdef</div>
             </Provider>
         </div>
     );
