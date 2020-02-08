@@ -7,9 +7,7 @@ import { Provider } from 'react-redux'
 import 'antd/dist/antd.css';
 const store = configureStore()
 function App() {
-    // const test = () => {
-    //     store.dispatch({ type: 'INCREMENT' })
-    // }
+   // test source tree
     return (
         <div className="App">
             <Provider store={store}>
