@@ -3,5 +3,7 @@ let locale = {
         f1: 'a',
         f2: 'b',
         f3: 'c',
+        abc: 'aaaa',
+        hhaha: 'fdsfsdrnem'
     }
 }
