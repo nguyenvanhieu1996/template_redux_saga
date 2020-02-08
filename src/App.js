@@ -12,14 +12,20 @@ function App() {
    // Change something
    // Add something
    handleOk = () => {
-       console.log('abcd')
-       console.log('eee')
+       console.log('1234', 1234)
+       let a = 1
+       let b = 2
+       let c = 1
+       let d = 2
+       
    }
     return (
         <div className="App">
             <Provider store={store}>
                 <TestRedux/>
-                {/*<button onClick={() => test()}>Click</button>*/}
+                <div>abcdef</div>
+                <div>abcdef</div>
+                <div>abcdef</div>
             </Provider>
         </div>
     );
