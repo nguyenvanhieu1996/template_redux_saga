@@ -13,13 +13,14 @@ function App() {
    // Add something
    handleOk = () => {
        console.log('abcd')
-       console.log('eee')
+       console.log('eee 43434343')
+       console.log('11111')
    }
     return (
         <div className="App">
             <Provider store={store}>
                 <TestRedux/>
-                {/*<button onClick={() => test()}>Click</button>*/}
+               <h3>dsadsajhdjhj</h3>
             </Provider>
         </div>
     );
